@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691E2E071CCECB7600391F9A /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 691E2E061CCECB7600391F9A /* victory.mp3 */; };
+		691E2E091CCED1FB00391F9A /* LevelVictoryScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691E2E081CCED1FB00391F9A /* LevelVictoryScene.swift */; };
+		691E2E0B1CCED93200391F9A /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691E2E0A1CCED93200391F9A /* DefaultsManager.swift */; };
+		691E2E0E1CCEE0BE00391F9A /* TorchFire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 691E2E0C1CCEE0BE00391F9A /* TorchFire.sks */; };
+		691E2E0F1CCEE0BE00391F9A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 691E2E0D1CCEE0BE00391F9A /* spark.png */; };
+		692060261CBC241000B481F2 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920601A1CBC241000B481F2 /* CGFloat+Extensions.swift */; };
+		692060271CBC241000B481F2 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920601B1CBC241000B481F2 /* CGPoint+Extensions.swift */; };
+		692060281CBC241000B481F2 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920601C1CBC241000B481F2 /* CGVector+Extensions.swift */; };
+		692060291CBC241000B481F2 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920601D1CBC241000B481F2 /* Int+Extensions.swift */; };
+		6920602A1CBC241000B481F2 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920601E1CBC241000B481F2 /* SKAction+Extensions.swift */; };
+		6920602B1CBC241000B481F2 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920601F1CBC241000B481F2 /* SKAction+SpecialEffects.swift */; };
+		6920602C1CBC241000B481F2 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692060201CBC241000B481F2 /* SKColor+Extensions.swift */; };
+		6920602D1CBC241000B481F2 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692060211CBC241000B481F2 /* SKNode+Extensions.swift */; };
+		6920602E1CBC241000B481F2 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692060221CBC241000B481F2 /* SKTAudio.swift */; };
+		6920602F1CBC241000B481F2 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692060231CBC241000B481F2 /* SKTEffects.swift */; };
+		692060301CBC241000B481F2 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692060241CBC241000B481F2 /* SKTTimingFunctions.swift */; };
+		692060311CBC241000B481F2 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692060251CBC241000B481F2 /* Vector3.swift */; };
+		6923C51F1CBE9B4A002FE84F /* MoriaCitadel.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 6923C51E1CBE9B41002FE84F /* MoriaCitadel.TTF */; };
+		6923C5211CBE9BBC002FE84F /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6923C5201CBE9BBC002FE84F /* StartMenu.swift */; };
+		6923C5231CBE9F8C002FE84F /* JDButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6923C5221CBE9F8C002FE84F /* JDButtonNode.swift */; };
+		69472DC61CCE8A2500614E1E /* push.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69472DC51CCE8A2500614E1E /* push.wav */; };
+		69472DCA1CCE8D7000614E1E /* Magical_Night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69472DC71CCE8D7000614E1E /* Magical_Night.mp3 */; };
+		69472DCB1CCE8D7000614E1E /* Spells_And_Castles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69472DC81CCE8D7000614E1E /* Spells_And_Castles.mp3 */; };
+		69472DCC1CCE8D7000614E1E /* Wonder_And_Magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 69472DC91CCE8D7000614E1E /* Wonder_And_Magic.mp3 */; };
+		694788DD1CBFE2DB00E90414 /* Level2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 694788DC1CBFE2DB00E90414 /* Level2.sks */; };
+		6972CD0E1CBFD00B00FF6AA4 /* JDSpriteButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6972CD0D1CBFD00B00FF6AA4 /* JDSpriteButtonNode.swift */; };
+		69785A521CC0006D0019881A /* Level3.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69785A511CC0006D0019881A /* Level3.sks */; };
+		699A49691CCF0C53001FE3FF /* Torch.sks in Resources */ = {isa = PBXBuildFile; fileRef = 699A49681CCF0C53001FE3FF /* Torch.sks */; };
+		69B75EC51CC90EEF00623288 /* Level4.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69B75EC41CC90EEF00623288 /* Level4.sks */; };
+		69B75EC71CC91C3800623288 /* Level5.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69B75EC61CC91C3800623288 /* Level5.sks */; };
+		69C4598E1CCE7C2E00C98521 /* magic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 69C4598D1CCE7C2E00C98521 /* magic.wav */; };
+		69CDD6EC1CBC1D620037CCC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD6EB1CBC1D620037CCC3 /* AppDelegate.swift */; };
+		69CDD6EE1CBC1D620037CCC3 /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 69CDD6ED1CBC1D620037CCC3 /* Level1.sks */; };
+		69CDD6F01CBC1D620037CCC3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD6EF1CBC1D620037CCC3 /* GameScene.swift */; };
+		69CDD6F21CBC1D630037CCC3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD6F11CBC1D630037CCC3 /* GameViewController.swift */; };
+		69CDD6F51CBC1D630037CCC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CDD6F31CBC1D630037CCC3 /* Main.storyboard */; };
+		69CDD6F71CBC1D630037CCC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69CDD6F61CBC1D630037CCC3 /* Assets.xcassets */; };
+		69CDD6FA1CBC1D630037CCC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69CDD6F81CBC1D630037CCC3 /* LaunchScreen.storyboard */; };
+		69CDD7051CBC1D630037CCC3 /* MagnemancerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD7041CBC1D630037CCC3 /* MagnemancerTests.swift */; };
+		69CDD7101CBC1D630037CCC3 /* MagnemancerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD70F1CBC1D630037CCC3 /* MagnemancerUITests.swift */; };
+		69CDD71E1CBC215B0037CCC3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD71D1CBC215B0037CCC3 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69CDD7011CBC1D630037CCC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69CDD6E01CBC1D620037CCC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CDD6E71CBC1D620037CCC3;
+			remoteInfo = Magnemancer;
+		};
+		69CDD70C1CBC1D630037CCC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69CDD6E01CBC1D620037CCC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69CDD6E71CBC1D620037CCC3;
+			remoteInfo = Magnemancer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		691E2E061CCECB7600391F9A /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
+		691E2E081CCED1FB00391F9A /* LevelVictoryScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelVictoryScene.swift; sourceTree = "<group>"; };
+		691E2E0A1CCED93200391F9A /* DefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		691E2E0C1CCEE0BE00391F9A /* TorchFire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TorchFire.sks; sourceTree = "<group>"; };
+		691E2E0D1CCEE0BE00391F9A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		6920601A1CBC241000B481F2 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGFloat+Extensions.swift"; path = "SKTUtils/CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		6920601B1CBC241000B481F2 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extensions.swift"; path = "SKTUtils/CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		6920601C1CBC241000B481F2 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGVector+Extensions.swift"; path = "SKTUtils/CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		6920601D1CBC241000B481F2 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "SKTUtils/Int+Extensions.swift"; sourceTree = "<group>"; };
+		6920601E1CBC241000B481F2 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKAction+Extensions.swift"; path = "SKTUtils/SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		6920601F1CBC241000B481F2 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKAction+SpecialEffects.swift"; path = "SKTUtils/SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		692060201CBC241000B481F2 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKColor+Extensions.swift"; path = "SKTUtils/SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		692060211CBC241000B481F2 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "SKNode+Extensions.swift"; path = "SKTUtils/SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		692060221CBC241000B481F2 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKTAudio.swift; path = SKTUtils/SKTAudio.swift; sourceTree = "<group>"; };
+		692060231CBC241000B481F2 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKTEffects.swift; path = SKTUtils/SKTEffects.swift; sourceTree = "<group>"; };
+		692060241CBC241000B481F2 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKTTimingFunctions.swift; path = SKTUtils/SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		692060251CBC241000B481F2 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vector3.swift; path = SKTUtils/Vector3.swift; sourceTree = "<group>"; };
+		6923C51E1CBE9B41002FE84F /* MoriaCitadel.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = MoriaCitadel.TTF; sourceTree = "<group>"; };
+		6923C5201CBE9BBC002FE84F /* StartMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMenu.swift; sourceTree = "<group>"; };
+		6923C5221CBE9F8C002FE84F /* JDButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDButtonNode.swift; sourceTree = "<group>"; };
+		69472DC51CCE8A2500614E1E /* push.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push.wav; sourceTree = "<group>"; };
+		69472DC71CCE8D7000614E1E /* Magical_Night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Magical_Night.mp3; sourceTree = "<group>"; };
+		69472DC81CCE8D7000614E1E /* Spells_And_Castles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Spells_And_Castles.mp3; sourceTree = "<group>"; };
+		69472DC91CCE8D7000614E1E /* Wonder_And_Magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wonder_And_Magic.mp3; sourceTree = "<group>"; };
+		694788DC1CBFE2DB00E90414 /* Level2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level2.sks; sourceTree = "<group>"; };
+		6972CD0D1CBFD00B00FF6AA4 /* JDSpriteButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDSpriteButtonNode.swift; sourceTree = "<group>"; };
+		69785A511CC0006D0019881A /* Level3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level3.sks; sourceTree = "<group>"; };
+		699A49681CCF0C53001FE3FF /* Torch.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Torch.sks; sourceTree = "<group>"; };
+		69B75EC41CC90EEF00623288 /* Level4.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level4.sks; sourceTree = "<group>"; };
+		69B75EC61CC91C3800623288 /* Level5.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level5.sks; sourceTree = "<group>"; };
+		69C4598D1CCE7C2E00C98521 /* magic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = magic.wav; sourceTree = "<group>"; };
+		69CDD6E81CBC1D620037CCC3 /* Magnemancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magnemancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CDD6EB1CBC1D620037CCC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69CDD6ED1CBC1D620037CCC3 /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		69CDD6EF1CBC1D620037CCC3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		69CDD6F11CBC1D630037CCC3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		69CDD6F41CBC1D630037CCC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69CDD6F61CBC1D630037CCC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69CDD6F91CBC1D630037CCC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69CDD6FB1CBC1D630037CCC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CDD7001CBC1D630037CCC3 /* MagnemancerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnemancerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CDD7041CBC1D630037CCC3 /* MagnemancerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnemancerTests.swift; sourceTree = "<group>"; };
+		69CDD7061CBC1D630037CCC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CDD70B1CBC1D630037CCC3 /* MagnemancerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnemancerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69CDD70F1CBC1D630037CCC3 /* MagnemancerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnemancerUITests.swift; sourceTree = "<group>"; };
+		69CDD7111CBC1D630037CCC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69CDD71D1CBC215B0037CCC3 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69CDD6E51CBC1D620037CCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CDD6FD1CBC1D630037CCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CDD7081CBC1D630037CCC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		692060321CBC241D00B481F2 /* SKUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6920601A1CBC241000B481F2 /* CGFloat+Extensions.swift */,
+				6920601B1CBC241000B481F2 /* CGPoint+Extensions.swift */,
+				6920601C1CBC241000B481F2 /* CGVector+Extensions.swift */,
+				6920601D1CBC241000B481F2 /* Int+Extensions.swift */,
+				6920601E1CBC241000B481F2 /* SKAction+Extensions.swift */,
+				6920601F1CBC241000B481F2 /* SKAction+SpecialEffects.swift */,
+				692060201CBC241000B481F2 /* SKColor+Extensions.swift */,
+				692060211CBC241000B481F2 /* SKNode+Extensions.swift */,
+				692060221CBC241000B481F2 /* SKTAudio.swift */,
+				692060231CBC241000B481F2 /* SKTEffects.swift */,
+				692060241CBC241000B481F2 /* SKTTimingFunctions.swift */,
+				692060251CBC241000B481F2 /* Vector3.swift */,
+			);
+			name = SKUtils;
+			sourceTree = "<group>";
+		};
+		69472DCD1CCE8D7800614E1E /* BGM */ = {
+			isa = PBXGroup;
+			children = (
+				69472DC71CCE8D7000614E1E /* Magical_Night.mp3 */,
+				69472DC81CCE8D7000614E1E /* Spells_And_Castles.mp3 */,
+				69472DC91CCE8D7000614E1E /* Wonder_And_Magic.mp3 */,
+			);
+			name = BGM;
+			sourceTree = "<group>";
+		};
+		69472DCE1CCE8F2300614E1E /* Scene Files */ = {
+			isa = PBXGroup;
+			children = (
+				69CDD6EF1CBC1D620037CCC3 /* GameScene.swift */,
+				6923C5201CBE9BBC002FE84F /* StartMenu.swift */,
+				691E2E081CCED1FB00391F9A /* LevelVictoryScene.swift */,
+			);
+			name = "Scene Files";
+			sourceTree = "<group>";
+		};
+		694788DB1CBFE2C300E90414 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				69CDD6ED1CBC1D620037CCC3 /* Level1.sks */,
+				699A49681CCF0C53001FE3FF /* Torch.sks */,
+				694788DC1CBFE2DB00E90414 /* Level2.sks */,
+				69785A511CC0006D0019881A /* Level3.sks */,
+				69B75EC41CC90EEF00623288 /* Level4.sks */,
+				69B75EC61CC91C3800623288 /* Level5.sks */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		69C4598C1CCE7C2300C98521 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				691E2E061CCECB7600391F9A /* victory.mp3 */,
+				69472DC51CCE8A2500614E1E /* push.wav */,
+				69C4598D1CCE7C2E00C98521 /* magic.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		69CDD6DF1CBC1D620037CCC3 = {
+			isa = PBXGroup;
+			children = (
+				69CDD6EA1CBC1D620037CCC3 /* Magnemancer */,
+				69CDD7031CBC1D630037CCC3 /* MagnemancerTests */,
+				69CDD70E1CBC1D630037CCC3 /* MagnemancerUITests */,
+				69CDD6E91CBC1D620037CCC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69CDD6E91CBC1D620037CCC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69CDD6E81CBC1D620037CCC3 /* Magnemancer.app */,
+				69CDD7001CBC1D630037CCC3 /* MagnemancerTests.xctest */,
+				69CDD70B1CBC1D630037CCC3 /* MagnemancerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69CDD6EA1CBC1D620037CCC3 /* Magnemancer */ = {
+			isa = PBXGroup;
+			children = (
+				69472DCD1CCE8D7800614E1E /* BGM */,
+				69C4598C1CCE7C2300C98521 /* Sounds */,
+				694788DB1CBFE2C300E90414 /* Levels */,
+				6923C51E1CBE9B41002FE84F /* MoriaCitadel.TTF */,
+				692060321CBC241D00B481F2 /* SKUtils */,
+				69CDD6EB1CBC1D620037CCC3 /* AppDelegate.swift */,
+				69CDD6F11CBC1D630037CCC3 /* GameViewController.swift */,
+				69CDD6F31CBC1D630037CCC3 /* Main.storyboard */,
+				69CDD6F61CBC1D630037CCC3 /* Assets.xcassets */,
+				69CDD6F81CBC1D630037CCC3 /* LaunchScreen.storyboard */,
+				69CDD6FB1CBC1D630037CCC3 /* Info.plist */,
+				69CDD71D1CBC215B0037CCC3 /* Player.swift */,
+				69472DCE1CCE8F2300614E1E /* Scene Files */,
+				6923C5221CBE9F8C002FE84F /* JDButtonNode.swift */,
+				6972CD0D1CBFD00B00FF6AA4 /* JDSpriteButtonNode.swift */,
+				691E2E0A1CCED93200391F9A /* DefaultsManager.swift */,
+				691E2E0C1CCEE0BE00391F9A /* TorchFire.sks */,
+				691E2E0D1CCEE0BE00391F9A /* spark.png */,
+			);
+			path = Magnemancer;
+			sourceTree = "<group>";
+		};
+		69CDD7031CBC1D630037CCC3 /* MagnemancerTests */ = {
+			isa = PBXGroup;
+			children = (
+				69CDD7041CBC1D630037CCC3 /* MagnemancerTests.swift */,
+				69CDD7061CBC1D630037CCC3 /* Info.plist */,
+			);
+			path = MagnemancerTests;
+			sourceTree = "<group>";
+		};
+		69CDD70E1CBC1D630037CCC3 /* MagnemancerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69CDD70F1CBC1D630037CCC3 /* MagnemancerUITests.swift */,
+				69CDD7111CBC1D630037CCC3 /* Info.plist */,
+			);
+			path = MagnemancerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69CDD6E71CBC1D620037CCC3 /* Magnemancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CDD7141CBC1D630037CCC3 /* Build configuration list for PBXNativeTarget "Magnemancer" */;
+			buildPhases = (
+				69CDD6E41CBC1D620037CCC3 /* Sources */,
+				69CDD6E51CBC1D620037CCC3 /* Frameworks */,
+				69CDD6E61CBC1D620037CCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magnemancer;
+			productName = Magnemancer;
+			productReference = 69CDD6E81CBC1D620037CCC3 /* Magnemancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69CDD6FF1CBC1D630037CCC3 /* MagnemancerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CDD7171CBC1D630037CCC3 /* Build configuration list for PBXNativeTarget "MagnemancerTests" */;
+			buildPhases = (
+				69CDD6FC1CBC1D630037CCC3 /* Sources */,
+				69CDD6FD1CBC1D630037CCC3 /* Frameworks */,
+				69CDD6FE1CBC1D630037CCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CDD7021CBC1D630037CCC3 /* PBXTargetDependency */,
+			);
+			name = MagnemancerTests;
+			productName = MagnemancerTests;
+			productReference = 69CDD7001CBC1D630037CCC3 /* MagnemancerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69CDD70A1CBC1D630037CCC3 /* MagnemancerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69CDD71A1CBC1D630037CCC3 /* Build configuration list for PBXNativeTarget "MagnemancerUITests" */;
+			buildPhases = (
+				69CDD7071CBC1D630037CCC3 /* Sources */,
+				69CDD7081CBC1D630037CCC3 /* Frameworks */,
+				69CDD7091CBC1D630037CCC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69CDD70D1CBC1D630037CCC3 /* PBXTargetDependency */,
+			);
+			name = MagnemancerUITests;
+			productName = MagnemancerUITests;
+			productReference = 69CDD70B1CBC1D630037CCC3 /* MagnemancerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69CDD6E01CBC1D620037CCC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeffery Kelly";
+				TargetAttributes = {
+					69CDD6E71CBC1D620037CCC3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					69CDD6FF1CBC1D630037CCC3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69CDD6E71CBC1D620037CCC3;
+					};
+					69CDD70A1CBC1D630037CCC3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 69CDD6E71CBC1D620037CCC3;
+					};
+				};
+			};
+			buildConfigurationList = 69CDD6E31CBC1D620037CCC3 /* Build configuration list for PBXProject "Magnemancer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69CDD6DF1CBC1D620037CCC3;
+			productRefGroup = 69CDD6E91CBC1D620037CCC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69CDD6E71CBC1D620037CCC3 /* Magnemancer */,
+				69CDD6FF1CBC1D630037CCC3 /* MagnemancerTests */,
+				69CDD70A1CBC1D630037CCC3 /* MagnemancerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69CDD6E61CBC1D620037CCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CDD6EE1CBC1D620037CCC3 /* Level1.sks in Resources */,
+				69472DCA1CCE8D7000614E1E /* Magical_Night.mp3 in Resources */,
+				691E2E0E1CCEE0BE00391F9A /* TorchFire.sks in Resources */,
+				694788DD1CBFE2DB00E90414 /* Level2.sks in Resources */,
+				69C4598E1CCE7C2E00C98521 /* magic.wav in Resources */,
+				69CDD6FA1CBC1D630037CCC3 /* LaunchScreen.storyboard in Resources */,
+				699A49691CCF0C53001FE3FF /* Torch.sks in Resources */,
+				6923C51F1CBE9B4A002FE84F /* MoriaCitadel.TTF in Resources */,
+				69472DCB1CCE8D7000614E1E /* Spells_And_Castles.mp3 in Resources */,
+				691E2E071CCECB7600391F9A /* victory.mp3 in Resources */,
+				69B75EC71CC91C3800623288 /* Level5.sks in Resources */,
+				69472DCC1CCE8D7000614E1E /* Wonder_And_Magic.mp3 in Resources */,
+				69472DC61CCE8A2500614E1E /* push.wav in Resources */,
+				69785A521CC0006D0019881A /* Level3.sks in Resources */,
+				69B75EC51CC90EEF00623288 /* Level4.sks in Resources */,
+				69CDD6F71CBC1D630037CCC3 /* Assets.xcassets in Resources */,
+				69CDD6F51CBC1D630037CCC3 /* Main.storyboard in Resources */,
+				691E2E0F1CCEE0BE00391F9A /* spark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CDD6FE1CBC1D630037CCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CDD7091CBC1D630037CCC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69CDD6E41CBC1D620037CCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6923C5211CBE9BBC002FE84F /* StartMenu.swift in Sources */,
+				6920602C1CBC241000B481F2 /* SKColor+Extensions.swift in Sources */,
+				692060301CBC241000B481F2 /* SKTTimingFunctions.swift in Sources */,
+				6920602A1CBC241000B481F2 /* SKAction+Extensions.swift in Sources */,
+				69CDD71E1CBC215B0037CCC3 /* Player.swift in Sources */,
+				692060281CBC241000B481F2 /* CGVector+Extensions.swift in Sources */,
+				6920602E1CBC241000B481F2 /* SKTAudio.swift in Sources */,
+				692060261CBC241000B481F2 /* CGFloat+Extensions.swift in Sources */,
+				6920602D1CBC241000B481F2 /* SKNode+Extensions.swift in Sources */,
+				6920602F1CBC241000B481F2 /* SKTEffects.swift in Sources */,
+				691E2E0B1CCED93200391F9A /* DefaultsManager.swift in Sources */,
+				69CDD6F01CBC1D620037CCC3 /* GameScene.swift in Sources */,
+				6972CD0E1CBFD00B00FF6AA4 /* JDSpriteButtonNode.swift in Sources */,
+				69CDD6F21CBC1D630037CCC3 /* GameViewController.swift in Sources */,
+				692060291CBC241000B481F2 /* Int+Extensions.swift in Sources */,
+				6923C5231CBE9F8C002FE84F /* JDButtonNode.swift in Sources */,
+				692060271CBC241000B481F2 /* CGPoint+Extensions.swift in Sources */,
+				691E2E091CCED1FB00391F9A /* LevelVictoryScene.swift in Sources */,
+				6920602B1CBC241000B481F2 /* SKAction+SpecialEffects.swift in Sources */,
+				692060311CBC241000B481F2 /* Vector3.swift in Sources */,
+				69CDD6EC1CBC1D620037CCC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CDD6FC1CBC1D630037CCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CDD7051CBC1D630037CCC3 /* MagnemancerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69CDD7071CBC1D630037CCC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CDD7101CBC1D630037CCC3 /* MagnemancerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69CDD7021CBC1D630037CCC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69CDD6E71CBC1D620037CCC3 /* Magnemancer */;
+			targetProxy = 69CDD7011CBC1D630037CCC3 /* PBXContainerItemProxy */;
+		};
+		69CDD70D1CBC1D630037CCC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69CDD6E71CBC1D620037CCC3 /* Magnemancer */;
+			targetProxy = 69CDD70C1CBC1D630037CCC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69CDD6F31CBC1D630037CCC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CDD6F41CBC1D630037CCC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69CDD6F81CBC1D630037CCC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69CDD6F91CBC1D630037CCC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69CDD7121CBC1D630037CCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69CDD7131CBC1D630037CCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69CDD7151CBC1D630037CCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Magnemancer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Project-Team.Magnemancer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		69CDD7161CBC1D630037CCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Magnemancer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Project-Team.Magnemancer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		69CDD7181CBC1D630037CCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MagnemancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Project-Team.MagnemancerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnemancer.app/Magnemancer";
+			};
+			name = Debug;
+		};
+		69CDD7191CBC1D630037CCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MagnemancerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Project-Team.MagnemancerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magnemancer.app/Magnemancer";
+			};
+			name = Release;
+		};
+		69CDD71B1CBC1D630037CCC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MagnemancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Project-Team.MagnemancerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Magnemancer;
+			};
+			name = Debug;
+		};
+		69CDD71C1CBC1D630037CCC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MagnemancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mobile-Project-Team.MagnemancerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Magnemancer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69CDD6E31CBC1D620037CCC3 /* Build configuration list for PBXProject "Magnemancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CDD7121CBC1D630037CCC3 /* Debug */,
+				69CDD7131CBC1D630037CCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CDD7141CBC1D630037CCC3 /* Build configuration list for PBXNativeTarget "Magnemancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CDD7151CBC1D630037CCC3 /* Debug */,
+				69CDD7161CBC1D630037CCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CDD7171CBC1D630037CCC3 /* Build configuration list for PBXNativeTarget "MagnemancerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CDD7181CBC1D630037CCC3 /* Debug */,
+				69CDD7191CBC1D630037CCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69CDD71A1CBC1D630037CCC3 /* Build configuration list for PBXNativeTarget "MagnemancerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CDD71B1CBC1D630037CCC3 /* Debug */,
+				69CDD71C1CBC1D630037CCC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69CDD6E01CBC1D620037CCC3 /* Project object */;
+}
